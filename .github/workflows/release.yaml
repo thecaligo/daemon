@@ -5,8 +5,9 @@ on:
     tags:
       - "v*"
 
+permissions: read-all
+
 jobs:
-  permissions: read-all
   release:
     name: Release
     runs-on: ubuntu-20.04
