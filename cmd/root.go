@@ -431,8 +431,8 @@ __ [blue][bold]Pterodactyl[reset] _____/___/_______ _______ ______
 Copyright © 2018 - %d Dane Everitt & Contributors
 
 Website:  https://pterodactyl.io
- Source:  https://github.com/pterodactyl/wings
-License:  https://github.com/pterodactyl/wings/blob/develop/LICENSE
+ Source:  https://github.com/thecaligo/daemon
+License:  https://github.com/thecaligo/daemon/blob/develop/LICENSE
 
 This software is made available under the terms of the MIT license.
 The above copyright notice and this permission notice shall be included
