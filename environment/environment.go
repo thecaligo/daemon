@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/thecaligo/daemon/events"
+	"github.com/pterodactyl/wings/events"
 )
 
 const (

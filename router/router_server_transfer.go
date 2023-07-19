@@ -9,11 +9,11 @@ import (
 	"emperror.dev/errors"
 	"github.com/gin-gonic/gin"
 
-	"github.com/thecaligo/daemon/environment"
-	"github.com/thecaligo/daemon/router/middleware"
-	"github.com/thecaligo/daemon/server"
-	"github.com/thecaligo/daemon/server/installer"
-	"github.com/thecaligo/daemon/server/transfer"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/router/middleware"
+	"github.com/pterodactyl/wings/server"
+	"github.com/pterodactyl/wings/server/installer"
+	"github.com/pterodactyl/wings/server/transfer"
 )
 
 // Data passed over to initiate a server transfer.

@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/pkg/sftp"
-	"github.com/thecaligo/daemon/environment"
+	"github.com/pterodactyl/wings/environment"
 	"github.com/secsy/goftp"
 	"golang.org/x/crypto/ssh"
 )

@@ -15,7 +15,7 @@ import (
 	"github.com/docker/docker/errdefs"
 	"github.com/goccy/go-json"
 
-	"github.com/thecaligo/daemon/config"
+	"github.com/pterodactyl/wings/config"
 )
 
 var (

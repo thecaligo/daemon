@@ -19,8 +19,8 @@ import (
 	"github.com/karrick/godirwalk"
 	ignore "github.com/sabhiram/go-gitignore"
 
-	"github.com/thecaligo/daemon/config"
-	"github.com/thecaligo/daemon/system"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/system"
 )
 
 type Filesystem struct {

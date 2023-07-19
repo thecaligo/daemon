@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/thecaligo/daemon/events"
-	"github.com/thecaligo/daemon/system"
+	"github.com/pterodactyl/wings/events"
+	"github.com/pterodactyl/wings/system"
 )
 
 // Defines all the possible output events for a server.

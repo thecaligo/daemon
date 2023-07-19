@@ -5,7 +5,7 @@ import (
 
 	. "github.com/franela/goblin"
 
-	"github.com/thecaligo/daemon/system"
+	"github.com/pterodactyl/wings/system"
 )
 
 func TestPower(t *testing.T) {

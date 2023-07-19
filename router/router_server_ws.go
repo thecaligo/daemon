@@ -8,8 +8,8 @@ import (
 	"github.com/goccy/go-json"
 	ws "github.com/gorilla/websocket"
 
-	"github.com/thecaligo/daemon/router/middleware"
-	"github.com/thecaligo/daemon/router/websocket"
+	"github.com/pterodactyl/wings/router/middleware"
+	"github.com/pterodactyl/wings/router/websocket"
 )
 
 var expectedCloseCodes = []int{

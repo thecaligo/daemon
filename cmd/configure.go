@@ -16,7 +16,7 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/spf13/cobra"
 
-	"github.com/thecaligo/daemon/config"
+	"github.com/pterodactyl/wings/config"
 )
 
 var configureArgs struct {

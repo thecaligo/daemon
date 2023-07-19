@@ -9,11 +9,11 @@ import (
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
 
-	"github.com/thecaligo/daemon/config"
-	"github.com/thecaligo/daemon/router/middleware"
-	"github.com/thecaligo/daemon/server"
-	"github.com/thecaligo/daemon/server/installer"
-	"github.com/thecaligo/daemon/system"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/router/middleware"
+	"github.com/pterodactyl/wings/server"
+	"github.com/pterodactyl/wings/server/installer"
+	"github.com/pterodactyl/wings/system"
 )
 
 // Returns information about the system that wings is running on.

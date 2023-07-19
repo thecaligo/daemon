@@ -9,9 +9,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/thecaligo/daemon/router/middleware"
-	"github.com/thecaligo/daemon/router/tokens"
-	"github.com/thecaligo/daemon/server/backup"
+	"github.com/pterodactyl/wings/router/middleware"
+	"github.com/pterodactyl/wings/router/tokens"
+	"github.com/pterodactyl/wings/server/backup"
 )
 
 // Handle a download request for a server backup.

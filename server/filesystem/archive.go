@@ -18,8 +18,8 @@ import (
 	"github.com/klauspost/pgzip"
 	ignore "github.com/sabhiram/go-gitignore"
 
-	"github.com/thecaligo/daemon/config"
-	"github.com/thecaligo/daemon/internal/progress"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/internal/progress"
 )
 
 const memory = 4 * 1024

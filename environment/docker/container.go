@@ -17,9 +17,9 @@ import (
 	"github.com/docker/docker/api/types/mount"
 	"github.com/docker/docker/client"
 
-	"github.com/thecaligo/daemon/config"
-	"github.com/thecaligo/daemon/environment"
-	"github.com/thecaligo/daemon/system"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/system"
 )
 
 var ErrNotAttached = errors.Sentinel("not attached to instance")

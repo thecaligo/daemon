@@ -18,11 +18,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 
-	"github.com/thecaligo/daemon/router/middleware"
-	"github.com/thecaligo/daemon/router/tokens"
-	"github.com/thecaligo/daemon/server"
-	"github.com/thecaligo/daemon/server/installer"
-	"github.com/thecaligo/daemon/server/transfer"
+	"github.com/pterodactyl/wings/router/middleware"
+	"github.com/pterodactyl/wings/router/tokens"
+	"github.com/pterodactyl/wings/server"
+	"github.com/pterodactyl/wings/server/installer"
+	"github.com/pterodactyl/wings/server/transfer"
 )
 
 // postTransfers .

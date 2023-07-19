@@ -1,4 +1,4 @@
-module github.com/thecaligo/daemon
+module github.com/pterodactyl/wings
 
 go 1.18
 

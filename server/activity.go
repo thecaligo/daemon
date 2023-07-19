@@ -6,8 +6,8 @@ import (
 
 	"emperror.dev/errors"
 
-	"github.com/thecaligo/daemon/internal/database"
-	"github.com/thecaligo/daemon/internal/models"
+	"github.com/pterodactyl/wings/internal/database"
+	"github.com/pterodactyl/wings/internal/models"
 )
 
 const ActivityPowerPrefix = "server:power."

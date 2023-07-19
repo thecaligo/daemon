@@ -13,8 +13,8 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/client"
 
-	"github.com/thecaligo/daemon/environment"
-	"github.com/thecaligo/daemon/remote"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/remote"
 )
 
 // OnBeforeStart run before the container starts and get the process

@@ -3,9 +3,9 @@ package server
 import (
 	"time"
 
-	"github.com/thecaligo/daemon/environment/docker"
+	"github.com/pterodactyl/wings/environment/docker"
 
-	"github.com/thecaligo/daemon/environment"
+	"github.com/pterodactyl/wings/environment"
 )
 
 // SyncWithEnvironment updates the environment for the server to match any of

@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/thecaligo/daemon/environment"
-	"github.com/thecaligo/daemon/system"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/system"
 )
 
 // ResourceUsage defines the current resource usage for a given server instance. If a server is offline you

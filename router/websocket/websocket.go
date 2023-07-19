@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/thecaligo/daemon/internal/models"
+	"github.com/pterodactyl/wings/internal/models"
 
 	"emperror.dev/errors"
 	"github.com/apex/log"
@@ -18,13 +18,13 @@ import (
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
 
-	"github.com/thecaligo/daemon/system"
+	"github.com/pterodactyl/wings/system"
 
-	"github.com/thecaligo/daemon/config"
-	"github.com/thecaligo/daemon/environment"
-	"github.com/thecaligo/daemon/environment/docker"
-	"github.com/thecaligo/daemon/router/tokens"
-	"github.com/thecaligo/daemon/server"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/environment/docker"
+	"github.com/pterodactyl/wings/router/tokens"
+	"github.com/pterodactyl/wings/server"
 )
 
 const (

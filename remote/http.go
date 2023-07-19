@@ -10,14 +10,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/thecaligo/daemon/internal/models"
+	"github.com/pterodactyl/wings/internal/models"
 
 	"emperror.dev/errors"
 	"github.com/apex/log"
 	"github.com/cenkalti/backoff/v4"
 	"github.com/goccy/go-json"
 
-	"github.com/thecaligo/daemon/system"
+	"github.com/pterodactyl/wings/system"
 )
 
 type Client interface {

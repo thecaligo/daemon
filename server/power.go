@@ -9,8 +9,8 @@ import (
 	"emperror.dev/errors"
 	"github.com/google/uuid"
 
-	"github.com/thecaligo/daemon/config"
-	"github.com/thecaligo/daemon/environment"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/environment"
 )
 
 type PowerAction string

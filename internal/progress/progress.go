@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/thecaligo/daemon/system"
+	"github.com/pterodactyl/wings/system"
 )
 
 // Progress is used to track the progress of any I/O operation that are being

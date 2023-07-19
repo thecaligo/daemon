@@ -26,16 +26,16 @@ import (
 	"golang.org/x/crypto/acme"
 	"golang.org/x/crypto/acme/autocert"
 
-	"github.com/thecaligo/daemon/config"
-	"github.com/thecaligo/daemon/environment"
-	"github.com/thecaligo/daemon/internal/cron"
-	"github.com/thecaligo/daemon/internal/database"
-	"github.com/thecaligo/daemon/loggers/cli"
-	"github.com/thecaligo/daemon/remote"
-	"github.com/thecaligo/daemon/router"
-	"github.com/thecaligo/daemon/server"
-	"github.com/thecaligo/daemon/sftp"
-	"github.com/thecaligo/daemon/system"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/internal/cron"
+	"github.com/pterodactyl/wings/internal/database"
+	"github.com/pterodactyl/wings/loggers/cli"
+	"github.com/pterodactyl/wings/remote"
+	"github.com/pterodactyl/wings/router"
+	"github.com/pterodactyl/wings/server"
+	"github.com/pterodactyl/wings/sftp"
+	"github.com/pterodactyl/wings/system"
 )
 
 var (
@@ -431,8 +431,8 @@ __ [blue][bold]Pterodactyl[reset] _____/___/_______ _______ ______
 Copyright © 2018 - %d Dane Everitt & Contributors
 
 Website:  https://pterodactyl.io
- Source:  https://github.com/thecaligo/daemon
-License:  https://github.com/thecaligo/daemon/blob/develop/LICENSE
+ Source:  https://github.com/pterodactyl/wings
+License:  https://github.com/pterodactyl/wings/blob/develop/LICENSE
 
 This software is made available under the terms of the MIT license.
 The above copyright notice and this permission notice shall be included
