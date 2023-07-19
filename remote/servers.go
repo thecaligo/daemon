@@ -131,6 +131,7 @@ func (c *client) SetImportStatus(ctx context.Context, uuid string, successful bo
 	_ = resp.Body.Close()
 	return nil
 }
+
 // ValidateSftpCredentials makes a request to determine if the username and
 // password combination provided is associated with a valid server on the instance
 // using the Panel's authentication control mechanisms. This will get itself

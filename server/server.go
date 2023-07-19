@@ -225,7 +225,7 @@ func (s *Server) SyncWithConfiguration(cfg remote.ServerConfigurationResponse) e
 	// changing on the next line.
 	c.mu.Lock()
 
-	//goland:noinspection GoVetCopyLock 
+	//goland:noinspection GoVetCopyLock
 	s.cfg = c
 
 	s.Lock()

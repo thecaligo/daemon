@@ -5,8 +5,6 @@ on:
     tags:
       - "v*"
 
-permissions: read-all
-
 jobs:
   release:
     name: Release
@@ -26,9 +24,9 @@ jobs:
           CGO_ENABLED: 0
           REF: ${{ github.ref }}
         run: |
-          GOARCH=amd64 go build -o dist/wings_linux_amd64 -v -trimpath -ldflags="-s -w -X github.com/thecaligo/daemon/system.Version=${REF:11}" github.com/thecaligo/daemon
+          GOARCH=amd64 go build -o dist/wings_linux_amd64 -v -trimpath -ldflags="-s -w -X github.com/pterodactyl/wings/system.Version=${REF:11}" github.com/pterodactyl/wings
           chmod 755 dist/wings_linux_amd64
-          GOARCH=arm64 go build -o dist/wings_linux_arm64 -v -trimpath -ldflags="-s -w -X github.com/thecaligo/daemon/system.Version=${REF:11}" github.com/thecaligo/daemon
+          GOARCH=arm64 go build -o dist/wings_linux_arm64 -v -trimpath -ldflags="-s -w -X github.com/pterodactyl/wings/system.Version=${REF:11}" github.com/pterodactyl/wings
           chmod 755 dist/wings_linux_arm64
 
       - name: Extract changelog
@@ -49,7 +47,7 @@ jobs:
           REF: ${{ github.ref }}
         run: |
           BRANCH=release/${REF:10}
-          git config --local user.email "ci@caligo.asia"
+          git config --local user.email "ci@pterodactyl.io"
           git config --local user.name "Pterodactyl CI"
           git checkout -b $BRANCH
           git push -u origin $BRANCH
